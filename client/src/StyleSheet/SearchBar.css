@@ -1,0 +1,132 @@
+.Search__container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.Search__field {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding: 10px;
+  height: 30px;
+  border: 1px solid lightslategray;
+  border-radius: 999px;
+  width: 180px;
+}
+
+.Search__field > input {
+  border: none;
+  outline: none;
+}
+.filters {
+  margin-top: 10px;
+  margin-left: 29px;
+}
+.Search__text > h4 {
+  font-weight: 900;
+  font-size: 20px;
+}
+.SearchBar__links {
+  display: flex;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+.search__links {
+  text-decoration: none;
+  color: black;
+  margin-left: 10px;
+}
+
+/* MOBILE VIEW */
+@media only screen and (max-width: 784px) {
+  .Search__field {
+    display: flex;
+    align-items: center;
+    height: 30px;
+  }
+  .filters {
+    margin-top: 10px;
+  }
+
+  .Search__text > h4 {
+    font-weight: 900;
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .Search__field {
+    display: flex;
+    align-items: center;
+
+    height: 30px;
+  }
+  .filters {
+    margin-top: 10px;
+  }
+}
+@media only screen and (max-width: 660px) {
+  .Search__field {
+    display: flex;
+    align-items: center;
+
+    height: 30px;
+  }
+  .filters {
+    margin-top: 10px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .Search__field {
+    display: flex;
+    align-items: center;
+
+    height: 30px;
+  }
+
+  .Search__text {
+    margin-left: 70px;
+  }
+  .filters {
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 592px) {
+  .Search__text {
+    margin-left: 2px;
+  }
+  .Search__field {
+    width: 230px;
+    height: 30px;
+  }
+
+  .filters {
+    margin-top: 5px;
+  }
+  .Search__text > h4 {
+    font-weight: 900;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .Search__text {
+    margin-left: 80px;
+  }
+  .Search__field {
+    width: 230px;
+    height: 30px;
+    margin-right: 15px;
+  }
+
+  .filters {
+    margin-top: 5px;
+  }
+  .Search__text > h4 {
+    font-weight: 900;
+    font-size: 20px;
+  }
+}
